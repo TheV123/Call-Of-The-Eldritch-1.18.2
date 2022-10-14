@@ -16,6 +16,7 @@ public class CallOfTheEldritch
     private static final Logger LOGGER = LogUtils.getLogger();
     public static final String MOD_ID = "call_of_the_eldritch";
 
+    //adding a comment
     public CallOfTheEldritch()
     {
         // Register the setup method for modloading
