@@ -1,6 +1,7 @@
 package com.theV123.call_of_the_eldritch;
 
 import com.mojang.logging.LogUtils;
+import com.theV123.call_of_the_eldritch.block.ModBlocks;
 import com.theV123.call_of_the_eldritch.item.ModItems;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraftforge.common.MinecraftForge;
@@ -23,6 +24,7 @@ public class CallOfTheEldritch
     {
         IEventBus eventBus = FMLJavaModLoadingContext.get().getModEventBus();
         ModItems.register(eventBus);
+        ModBlocks.register(eventBus);
 
         eventBus.addListener(this::setup);
 
